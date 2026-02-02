@@ -10,4 +10,8 @@
   - It takes time before the program is fully optimized, which could cause load issues early on in its lifecycle.
 3. From what I researched (via wikipedia), the eval function in LISP is primarily for string processing, but, alternatively (and likely more importantly), is able to evaluate expressions as code. So it acts as an interpreter within itself, which is pretty cool. I'm sure this is used both as a compiler/interpreter external of the code as well as a tool for executing lambda-esque statements within it, and is even capable of modifying itself as it's running. It's easy to see how this built the foundation of early AI research.
 
+## 4.6.2 Number Literals
+- Defining early on how to parse the decimal in floating point affects not only what literals are considered "legal" i.e. 431.23 or 431. or .431, but also if/how we can call methods on those literals i.e. 123.abs();
 
+## 4.7 Reserved Words & Identifiers
+1. 
