@@ -1,5 +1,7 @@
 # Crafting Interpreters
 
+Hi! I'm using this README to record my answers to the end of section/chapter questions.
+
 ## 2.4 Our Journey
 1. Downloaded CPython source... identified files lexer.c and parser.c which suggests they were hand-written.
   - lexer was around 1.5k lines, so not insane but by no means simple.
