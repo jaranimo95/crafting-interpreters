@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 import static com.craftinginterpreters.lox.TokenType.*;
 
-class Scanner {
+public class Scanner {
     private final String source;
     private final List<Token> tokens = new ArrayList<>();
     private int start = 0;
@@ -60,7 +60,7 @@ class Scanner {
             case ';': addToken(SEMICOLON); break;
             case '*': addToken(STAR); break;
             case '!':
-                addToken(match('='), BANG_EQUAL : BANG);
+                addToken(match('=') ? BANG_EQUAL : BANG);
                 break;
             case '=':
                 addToken(match('=') ? EQUAL_EQUAL : EQUAL);
