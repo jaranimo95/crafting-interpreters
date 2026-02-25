@@ -8,6 +8,7 @@ enum TokenType {
     EQUAL, EQUAL_EQUAL,
     GREATER, GREATER_EQUAL,
     LESS, LESS_EQUAL,
+//    BLOCK_COMMENT_START, BLOCK_COMMENT_END,
     // Literals.
     IDENTIFIER, STRING, NUMBER,
     // Keywords.
